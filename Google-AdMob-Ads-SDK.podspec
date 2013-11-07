@@ -16,7 +16,7 @@ LICENSE
   s.source = { :http => "http://dl.google.com/googleadmobadssdk/googleadmobadssdkios.zip" }
 
   s.source_files = 'GoogleAdMobAdsSDKiOS-6.6.0', '*.{h,m}'
-  #s.preserve_paths = 'GoogleAdMobAdsSDKiOS-6.6.0'
+  s.preserve_paths = 'GoogleAdMobAdsSDKiOS-6.6.0'
 
   s.framework = %w{AudioToolbox MessageUI SystemConfiguration CoreGraphics AdSupport StoreKit}
   s.library = 'GoogleAdMobAds'
