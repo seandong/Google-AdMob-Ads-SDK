@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name = "Google-AdMob-Ads-SDK"
   s.version = "6.6.0"
+  s.platform = :ios, '5.0'
   s.summary = "Google AdMob Ads SDK."
   s.description = "The Google AdMob Ads SDK allows developers to easily incorporate mobile-friendly text and image banners as well as rich, full-screen web apps known as interstitials."
   s.homepage = "https://developers.google.com/mobile-ads-sdk/docs/"
@@ -13,10 +14,9 @@ LICENSE
   }
   s.author = 'Google Inc.'
   s.source = { :http => "http://dl.google.com/googleadmobadssdk/googleadmobadssdkios.zip" }
-  s.platform = :ios
 
   s.source_files = 'GoogleAdMobAdsSDKiOS-6.6.0', '*.{h,m}'
-  s.preserve_paths = 'GoogleAdMobAdsSDKiOS-6.6.0'
+  #s.preserve_paths = 'GoogleAdMobAdsSDKiOS-6.6.0'
 
   s.framework = %w{AudioToolbox MessageUI SystemConfiguration CoreGraphics AdSupport StoreKit}
   s.library = 'GoogleAdMobAds'
